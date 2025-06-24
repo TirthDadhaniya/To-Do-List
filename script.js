@@ -21,6 +21,7 @@ todoform.addEventListener("submit", (e) => {
     span.textContent = todoinput.value;
     span.style.flex = "1";
     span.style.cursor = "pointer";
+    span.contentEditable = "false";
 
     span.addEventListener("click", () => {
       span.contentEditable = "true";
