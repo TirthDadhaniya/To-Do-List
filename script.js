@@ -46,7 +46,6 @@ todoform.addEventListener("submit", (e) => {
     crossIcon.style.cursor = "pointer";
     crossIcon.style.marginLeft = "auto";
 
-    // Toggle checked state
     squareIcon.addEventListener("click", () => {
       li.classList.toggle("checked");
       squareIcon.src = li.classList.contains("checked")
@@ -54,7 +53,6 @@ todoform.addEventListener("submit", (e) => {
         : "square.svg";
     });
 
-    // Delete task
     crossIcon.addEventListener("click", () => {
       li.remove();
     });
