@@ -2,6 +2,9 @@
 
 A simple, interactive To-Do List web app built with HTML, CSS, and JavaScript.
 
+##Live Demo
+Experience the To-Do List in action right now! [Live Demo](https://tirthdadhaniya.github.io/To-Do-List/)
+
 ## Features
 
 - **Add Tasks:**  
@@ -45,7 +48,8 @@ To-Do-List/
 ├── plus.svg
 ├── square.svg
 ├── checked-square.svg
-└── cross.svg
+├── cross.svg
+└── Ref. by Arkan Naufal from Dribbble.webp
 ```
 
 ## Customization
