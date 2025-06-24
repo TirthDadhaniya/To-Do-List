@@ -3,7 +3,7 @@
 A simple, interactive To-Do List web app built with HTML, CSS, and JavaScript.
 
 ##Live Demo
-Experience the To-Do List in action right now! [Live Demo](https://tirthdadhaniya.github.io/To-Do-List/)
+Experience the To-Do List in action right now! [https://tirthdadhaniya.github.io/To-Do-List/]
 
 ## Features
 
