@@ -6,18 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
 </head>
 
 <body>
     <div class="container">
         <h1>To-Do List</h1>
-        <form id="todo-form">
-            <input type="text" id="todo-input" placeholder="Add new task" required>
-            <button type="submit"><img class="plus-icon" src="plus.svg"></button>
+        <form id="todo-form" autocomplete="off">
+            <div class="input-div">
+                <input type="text" id="todo-input" placeholder="Add new task" required>
+            </div>
+            <button type="submit"><img class="plus-icon" src="plus.svg" alt="Add"></button>
         </form>
-        <ul id="todo-list"></ul>
+
+        <ul id="todo-list">
+            <!-- <li class="checked"> Task 1</li>
+            <li> Task 2</li>
+            <li> Task 3</li> -->
+        </ul>
     </div>
+
 
     <script src="script.js"></script>
 </body>
